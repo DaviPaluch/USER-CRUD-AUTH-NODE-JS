@@ -1,0 +1,26 @@
+json
+
+{
+	"email":"email0@email.com",
+	"password":"123456"
+}
+
+
+res
+
+
+{
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWlkIjoiZjA0YzAyY2UtNWJkOS00NTEwLThkNjYtMWVlYWE1ZDkzYjE1IiwiZW1haWwiOiJlbWFpbDBAZW1haWwuY29tIiwiaWF0IjoxNzA1ODY1NDk2LCJleHAiOjE3MDU4NjkwOTZ9.Qb-r2VbiQABXgxek5PPTq8pff4USopNfgiuIJDMhzB0",
+	"msg": "Login bem-sucedido",
+	"email": "email0@email.com",
+	"guid": "f04c02ce-5bd9-4510-8d66-1eeaa5d93b15"
+}
+
+
+
+url
+
+
+http://localhost:3000/api/login/
+
+

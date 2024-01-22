@@ -1,0 +1,21 @@
+json
+
+{
+	"email":"email1@email.com",
+	"password":"123456"
+}
+
+res
+
+{
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWlkIjoiNDMwMWE0NDEtMDg2ZC00OTRkLWIyYzYtZjc4NWU2MWQxZWUzIiwiZW1haWwiOiJlbWFpbDFAZW1haWwuY29tIiwiaWF0IjoxNzA1ODEwMjE2LCJleHAiOjE3MDU4MTM4MTZ9.A1QKTsToTSQbxFQFR3YQ7PiAZeJ4U6CX1xts7WDEEWs",
+	"msg": "Registro bem-sucedido",
+	"user": {
+		"guid": "4301a441-086d-494d-b2c6-f785e61d1ee3",
+		"email": "email1@email.com"
+	}
+}
+
+url
+
+http://localhost:3000/api/register/

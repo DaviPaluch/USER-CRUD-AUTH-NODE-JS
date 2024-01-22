@@ -8,7 +8,7 @@ const Token = require("../TokenAuth/tokenAuth");
 const loginUserController = {
   doLogin: async (req,res)  => {
     try {
-      const { email, password } = req.body
+      const { email, password } = req.query;
 
       const user = await User.findOne({ email })
 

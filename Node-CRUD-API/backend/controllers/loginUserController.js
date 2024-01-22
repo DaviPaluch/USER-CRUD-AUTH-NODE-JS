@@ -11,7 +11,7 @@ const loginUserController = {
       const user = await User.findOne({ email });
 
       if (!user) {
-        return res.status(401).json({ msg: "Credenciais inválidas", status: 401, token: "", msg: "", email: "", guid: "" });
+        return res.status(401).json({ msg: "Credenciais inválidas", status: 401, token: "", email: "", guid: "" });
       }
 
       const passwordMatch = await bcrypt.compare(password, user.password);
@@ -23,11 +23,11 @@ const loginUserController = {
         // Retorne o token na resposta
         return res.status(200).json({ token:token, msg: "Login bem-sucedido", email: user.email, guid: user.guid, status: 200 });
       } else {
-        return res.status(401).json({ msg: "Credenciais inválidas", status: 401, token: "", msg: "", email: "", guid: "" });
+        return res.status(401).json({ msg: "Credenciais inválidas", status: 401, token: "", email: "", guid: "" });
       }
     } catch (error) {
       console.log(error);
-      return res.status(500).json({ msg: "Erro interno do servidor", status: 500, token: "", msg: "", email: "", guid: "" });
+      return res.status(500).json({ msg: "Erro interno do servidor", status: 500, token: "", email: "", guid: "" });
     }
   }
 }
